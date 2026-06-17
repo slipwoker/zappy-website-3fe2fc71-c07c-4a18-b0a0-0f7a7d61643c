@@ -7,65 +7,65 @@
 ## Pages
 
 ### בית
-https://my-jersey-il-3fe2fc71.zappy5.app
+https://example.com
 מותג פרימיום לחולצות כדורגל בהתאמה אישית. תופרים לך זהות, סטייל וגאוות שכונה עם דגמים במראה אורבני-יוקרתי. הוסף שם, מספר וטלאים במחיר שקוף ותתחיל לשחק.
 
 ### השראות
-https://my-jersey-il-3fe2fc71.zappy5.app/inspirations
+https://example.com/inspirations
 גלו לוקים שחורים-אפורים עם נגיעות לד זוהרות שמגדירים מחדש חולצת אוהד כדורגל. קולקציית רטרו ישראלית בעיצוב עילית שתדליק לכם את הדמיון לפני ההזמנה.
 
 ### מדריך הזמנה
-https://my-jersey-il-3fe2fc71.zappy5.app/order-guide
+https://example.com/order-guide
 איך בוחרים גופן, טלאים ומיקום הדפסה על חולצת כדורגל עם הדפסה אישית? מדריך ויזואלי פשוט שלוקח אתכם צעד-צעד ליצירת הג&#39;רסי המושלם במחירים גלויים.
 
 ### צור קשר
-https://my-jersey-il-3fe2fc71.zappy5.app/contact
+https://example.com/contact
 רוצים חולצת אוהד כדורגל בהתאמה אישית שתספר את הסיפור שלכם? צרו קשר עם הסטודיו שלנו, שתפו רעיונות ונבנה יחד פריט לבוש שהוא תרבות, לא רק ספורט.
 
 ### Products
-https://my-jersey-il-3fe2fc71.zappy5.app/products
+https://example.com/products
 המוצרים שלנו - my jersey IL
 
 ### Cart
-https://my-jersey-il-3fe2fc71.zappy5.app/cart
+https://example.com/cart
 עגלת הקניות שלך
 
 ### Checkout
-https://my-jersey-il-3fe2fc71.zappy5.app/checkout
+https://example.com/checkout
 תשלום
 
 ### Login
-https://my-jersey-il-3fe2fc71.zappy5.app/login
+https://example.com/login
 התחברות לקוחות
 
 ### Account
-https://my-jersey-il-3fe2fc71.zappy5.app/account
+https://example.com/account
 החשבון שלי
 
 ### Order Success
-https://my-jersey-il-3fe2fc71.zappy5.app/order-success
+https://example.com/order-success
 תודה על ההזמנה
 
 ### Product Detail
-https://my-jersey-il-3fe2fc71.zappy5.app/product/:slug
+https://example.com/product/:slug
 פרטי המוצר - my jersey IL
 
 ### Category
-https://my-jersey-il-3fe2fc71.zappy5.app/category/:slug
+https://example.com/category/:slug
 מוצרים - my jersey IL
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://my-jersey-il-3fe2fc71.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://my-jersey-il-3fe2fc71.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://my-jersey-il-3fe2fc71.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -94,8 +94,8 @@ E-commerce / Custom Sportswear
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://my-jersey-il-3fe2fc71.zappy5.app/sitemap.xml
-- Robots: https://my-jersey-il-3fe2fc71.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://my-jersey-il-3fe2fc71.zappy5.app/llms-full.txt
-- Products (JSON): https://my-jersey-il-3fe2fc71.zappy5.app/products.json
-- Products (Google Merchant RSS): https://my-jersey-il-3fe2fc71.zappy5.app/product-feed.xml
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Products (JSON): https://example.com/products.json
+- Products (Google Merchant RSS): https://example.com/product-feed.xml
