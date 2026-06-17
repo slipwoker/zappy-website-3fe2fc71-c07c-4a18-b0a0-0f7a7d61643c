@@ -363,7 +363,7 @@
     </div>
   
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
-<script>window.ZAPPY_WEBSITE_ID = "3fe2fc71-c07c-4a18-b0a0-0f7a7d61643c";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "3fe2fc71-c07c-4a18-b0a0-0f7a7d61643c";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -883,16 +883,16 @@
   <div class="order-guide-intro-section__mesh-texture" aria-hidden="true"></div>
 </section>
 
-<section class="order-guide-services-section" data-layout-spec="מדריך הזמנה-services">
+<section class="order-guide-services-section" data-layout-spec="מדריך הזמנה-services" id="order-guide-services-section">
   <div class="order-guide-services-section__container">
     <div class="order-guide-services-section__header">
       <h2 class="order-guide-services-section__title">בחר את החולצה שלך</h2>
-      <p class="order-guide-services-section__subtitle">שלוש קטגוריות פרימיום, כל אחת עם אופי ייחודי. בדיוק כמו שאתה אוהב כדורגל.</p>
+      <p class="order-guide-services-section__subtitle" style="color: rgb(19, 23, 34) !important;">שלוש קטגוריות פרימיום, כל אחת עם אופי ייחודי. בדיוק כמו שאתה אוהב כדורגל.</p>
       <div class="order-guide-services-section__divider" aria-hidden="true"></div>
     </div>
     <div class="order-guide-services-section__grid">
       <!-- Card 1: Fan Jersey -->
-      <article class="order-guide-services-section__card">
+      <article class="order-guide-services-section__card" data-grid-item-index="0">
         <div class="order-guide-services-section__card-badge">הכי נמכר</div>
         <div class="order-guide-services-section__card-icon" aria-hidden="true">
           <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
@@ -903,12 +903,12 @@
           <span class="order-guide-services-section__price-value">75</span>
         </div>
         <p class="order-guide-services-section__card-description">גזרה קלאסית ונוחה, מושלמת ליציע ולשבת בערב. הדפס מדויק על בד איכותי שמרגיש רך ונעים על הגוף.</p>
-        <p class="order-guide-services-section__card-fit">למי שכדורגל אצלו בלב, לא משנה איפה הוא צופה.</p>
-        <a href="/order" class="order-guide-services-section__card-btn">בחר חולצת אוהד</a>
-      </article>
+        <p class="order-guide-services-section__card-fit" style="color: rgb(19, 23, 34) !important;">למי שכדורגל אצלו בלב, לא משנה איפה הוא צופה.</p>
+        <p class="zappy-editable"><a href="/order" class="order-guide-services-section__card-btn" data-element-type="button" data-element-id="btn-1781732125381-8x3gaef0h" data-native-element="true">בחר חולצת אוהד</a>
+      </p></article>
       <!-- Card 2: Player Jersey -->
-      <article class="order-guide-services-section__card order-guide-services-section__card--featured">
-        <div class="order-guide-services-section__card-badge order-guide-services-section__card-badge--accent">הכי פופולרי</div>
+      <article class="order-guide-services-section__card order-guide-services-section__card--featured" data-grid-item-index="1">
+        <div class="order-guide-services-section__card-badge order-guide-services-section__card-badge--accent" style="">בד נמתח ממש כמו במגרש</div>
         <div class="order-guide-services-section__card-icon" aria-hidden="true">
           <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
         </div>
@@ -918,11 +918,11 @@
           <span class="order-guide-services-section__price-value">85</span>
         </div>
         <p class="order-guide-services-section__card-description">גזרת ביצועים עם בד טכני נושם, בדיוק כמו על המגרש. התאמה מושלמת למי שחי את המשחק בכל רגע.</p>
-        <p class="order-guide-services-section__card-fit">למי שרוצה להרגיש את הדשא גם כשהוא הולך ברחוב.</p>
-        <a href="/order" class="order-guide-services-section__card-btn">בחר חולצת שחקן</a>
-      </article>
+        <p class="order-guide-services-section__card-fit" style="color: rgb(19, 23, 34) !important;">למי שרוצה להרגיש את הדשא גם כשהוא הולך ברחוב.</p>
+        <p><a href="/order" class="order-guide-services-section__card-btn" data-element-type="button" data-element-id="btn-1781732125381-2ucvcwi0d" data-native-element="true">בחר חולצת שחקן</a>
+      </p></article>
       <!-- Card 3: Retro Jersey -->
-      <article class="order-guide-services-section__card">
+      <article class="order-guide-services-section__card" data-grid-item-index="2">
         <div class="order-guide-services-section__card-badge">פרימיום</div>
         <div class="order-guide-services-section__card-icon" aria-hidden="true">
           <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
@@ -933,11 +933,11 @@
           <span class="order-guide-services-section__price-value">90</span>
         </div>
         <p class="order-guide-services-section__card-description">עיצוב וינטג' מוקפד עם קריצה לעבר. בד משובח בגימור יוקרתי, לאספנים ולאוהבי הקלאסיקות הגדולות.</p>
-        <p class="order-guide-services-section__card-fit">למי שמבין שכדורגל אמיתי אף פעם לא יוצא מאופנה.</p>
-        <a href="/order" class="order-guide-services-section__card-btn">בחר חולצת רטרו</a>
-      </article>
+        <p class="order-guide-services-section__card-fit" style="color: rgb(19, 23, 34) !important;">למי שמבין שכדורגל אמיתי אף פעם לא יוצא מאופנה.</p>
+        <p class="zappy-editable"><a href="/order" class="order-guide-services-section__card-btn" data-element-type="button" data-element-id="btn-1781732125381-0233dud2i" data-native-element="true">בחר חולצת רטרו</a>
+      </p></article>
     </div>
-    <p class="order-guide-services-section__footer-note">כל המחירים כוללים מע"מ. ניתן להוסיף שם, מספר ופאצ'ים במסך ההתאמה האישית.</p>
+    <p class="order-guide-services-section__footer-note" style="color: rgb(19, 23, 34) !important;">כל המחירים כוללים מע"מ. ניתן להוסיף שם, מספר ופאצ'ים במסך ההתאמה האישית.</p>
   </div>
 </section>
 
@@ -945,7 +945,7 @@
   <div class="order-guide-process-section__container">
     <div class="order-guide-process-section__header">
       <h2 class="order-guide-process-section__title">איך מזמינים חולצת כדורגל בהתאמה אישית?</h2>
-      <p class="order-guide-process-section__subtitle" >ארבעה צעדים פשוטים, והחולצה המושלמת שלך בדרך</p>
+      <p class="order-guide-process-section__subtitle" style="">ארבעה צעדים פשוטים, והחולצה המושלמת שלך בדרך</p>
     </div>
 
     <div class="order-guide-process-section__steps" style="display: grid; --zappy-grid-cols: repeat(3, minmax(0, 1fr)); grid-template-columns: repeat(3, minmax(0, 1fr));" data-zappy-explicit-columns="true">
@@ -960,7 +960,7 @@
           
         </div>
         <div class="order-guide-process-section__step-visual">
-          <img loading="lazy" decoding="async" data-placeholder="jersey-type-selection" data-context="Close-up of three premium football jerseys displayed on a dark editorial background: a classic fan jersey, a player-fit jersey, and a retro jersey, each with subtle neon green accent lighting." width="280" height="180" src="/assets/site-jersey-type-selection.webp" alt="מבחר סוגי חולצות כדורגל" class="order-guide-process-section__step-img" data-element-type="image" data-element-id="img-1781727858998-xu9s3bqpg" >
+          <img loading="lazy" decoding="async" data-placeholder="jersey-type-selection" data-context="Close-up of three premium football jerseys displayed on a dark editorial background: a classic fan jersey, a player-fit jersey, and a retro jersey, each with subtle neon green accent lighting." width="280" height="180" src="/assets/site-jersey-type-selection.webp" alt="מבחר סוגי חולצות כדורגל" class="order-guide-process-section__step-img" data-element-type="image" data-element-id="img-1781727858998-xu9s3bqpg" style="">
         </div>
       </div>
 
@@ -971,11 +971,11 @@
           </p><div class="order-guide-process-section__step-line"></div>
         </div>
         <div class="order-guide-process-section__step-content">
-          <h3 class="order-guide-process-section__step-title" >שתף את ההשראה שלך</h3>
-          <p class="order-guide-process-section__step-text" >יש לך תמונה של חולצה שראית? שלח לנו אותה ישירות בוואטסאפ, תרשום מידה (מומלץ מידה אחת יותר מבדרך כלל), שם ומספר שחקן מאחורה בתוספת של 15₪ ופאץ' אם רצוי בתוספת של 5₪</p>
+          <h3 class="order-guide-process-section__step-title" style="">שתף את ההשראה שלך</h3>
+          <p class="order-guide-process-section__step-text" style="">יש לך תמונה של חולצה שראית? שלח לנו אותה ישירות בוואטסאפ, תרשום מידה (מומלץ מידה אחת יותר מבדרך כלל), שם ומספר שחקן מאחורה בתוספת של 15₪ ופאץ' אם רצוי בתוספת של 5₪</p>
         </div>
         <div class="order-guide-process-section__step-visual">
-          <img loading="lazy" decoding="async" data-placeholder="share-inspiration" data-context="A smartphone screen showing a football jersey image with a share icon overlay, set against a dark urban background with subtle mesh texture and neon green highlights." width="280" height="180" src="/assets/site-share-inspiration.webp" alt="שיתוף השראה לחולצה" class="order-guide-process-section__step-img" data-element-type="image" data-element-id="img-1781727858998-2hgqxdjpx" >
+          <img loading="lazy" decoding="async" data-placeholder="share-inspiration" data-context="A smartphone screen showing a football jersey image with a share icon overlay, set against a dark urban background with subtle mesh texture and neon green highlights." width="280" height="180" src="/assets/site-share-inspiration.webp" alt="שיתוף השראה לחולצה" class="order-guide-process-section__step-img" data-element-type="image" data-element-id="img-1781727858998-2hgqxdjpx" style="">
         </div>
       </div>
 
@@ -988,11 +988,11 @@
           <span class="order-guide-process-section__step-number">04</span>
         </div>
         <div class="order-guide-process-section__step-content">
-          <h3 class="order-guide-process-section__step-title" >תשלום וסיפוק</h3>
-          <p class="order-guide-process-section__step-text" >שלם לנו ב bit ותרשום לנו לאן לשלוח את החולצה, לאחר מכן נתחיל בהכנת החולצה שלך במפעל מהפרטים הכי קטנים ונשלח לך תמונות של החולצה בתהליך השליחה אליך.</p>
+          <h3 class="order-guide-process-section__step-title" style="">תשלום וסיפוק</h3>
+          <p class="order-guide-process-section__step-text" style="">שלם לנו ב bit ותרשום לנו לאן לשלוח את החולצה, לאחר מכן נתחיל בהכנת החולצה שלך במפעל מהפרטים הכי קטנים ונשלח לך תמונות של החולצה בתהליך השליחה אליך.</p>
         </div>
         <div class="order-guide-process-section__step-visual">
-          <img loading="lazy" decoding="async" data-placeholder="personalization-options" data-context="A close-up of a football jersey back showing custom name and number printing, with league patches visible on the sleeve, all illuminated by subtle neon green accent lighting against a dark background." width="280" height="180" src="/assets/site-personalization-options.webp" alt="התאמה אישית לחולצת כדורגל" class="order-guide-process-section__step-img" data-element-type="image" data-element-id="img-1781727858998-d43bhjbad" >
+          <img loading="lazy" decoding="async" data-placeholder="personalization-options" data-context="A close-up of a football jersey back showing custom name and number printing, with league patches visible on the sleeve, all illuminated by subtle neon green accent lighting against a dark background." width="280" height="180" src="/assets/site-personalization-options.webp" alt="התאמה אישית לחולצת כדורגל" class="order-guide-process-section__step-img" data-element-type="image" data-element-id="img-1781727858998-d43bhjbad" style="">
         </div>
       </div>
     </div>
