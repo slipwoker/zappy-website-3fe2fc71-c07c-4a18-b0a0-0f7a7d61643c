@@ -363,7 +363,7 @@
     </div>
   
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
-<script>window.ZAPPY_WEBSITE_ID = "3fe2fc71-c07c-4a18-b0a0-0f7a7d61643c";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "3fe2fc71-c07c-4a18-b0a0-0f7a7d61643c";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -978,30 +978,30 @@
   </div>
 </section>
 
-<section class="contact-reviews-section" data-layout-spec="צור קשר-reviews">
+<section class="contact-reviews-section" data-layout-spec="צור קשר-reviews" id="contact-reviews-section">
   <div class="contact-reviews-container">
     <div class="contact-reviews-header">
       <h2 class="contact-reviews-title">מה הלקוחות שלנו אומרים</h2>
-      <p class="contact-reviews-subtitle">החולצות שלנו מדברות בעד עצמן, אבל הלקוחות שלנו מדברים חזק יותר</p>
+      <p class="contact-reviews-subtitle" style="color: rgb(19, 23, 34) !important;">החולצות שלנו מדברות בעד עצמן, אבל הלקוחות שלנו מדברים חזק יותר</p>
     </div>
     <div class="contact-reviews-grid">
       <!-- Review Card 1 -->
-      <article class="contact-reviews-card">
+      <article class="contact-reviews-card" data-grid-item-index="0">
         <div class="contact-reviews-card-accent"></div>
         <div class="contact-reviews-card-content">
           <svg class="contact-reviews-quote-icon" data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M10 8C6.68629 8 4 10.6863 4 14V24H12V16H8C8 13.7909 9.79086 12 12 12V8Z" fill="currentColor" opacity="0.15"></path>
             <path d="M22 8C18.6863 8 16 10.6863 16 14V24H24V16H20C20 13.7909 21.7909 12 24 12V8Z" fill="currentColor" opacity="0.15"></path>
           </svg>
-          <p class="contact-reviews-text">"הזמנתי חולצת רטרו של נבחרת איטליה 94' עם השם והמספר שלי. האיכות מטורפת, הבד מרגיש יוקרתי וההדפסה מושלמת. קיבלתי אינספור מחמאות במגרש ובשכונה. זאת לא סתם חולצה — זאת הצהרה."</p>
+          <p class="contact-reviews-text" style="">"הזמנתי חולצת רטרו של נבחרת איטליה 94' עם השם והמספר שלי. האיכות מטורפת, הבד מרגיש יוקרתי וההדפסה מושלמת. קיבלתי אינספור מחמאות במגרש ובשכונה.</p>
           <div class="contact-reviews-source">
             <span class="contact-reviews-name">דניאל לוי</span>
-            <span class="contact-reviews-role">חולצת רטרו איטליה 94'</span>
+            <span class="contact-reviews-role" style="color: rgb(19, 23, 34) !important;">חולצת רטרו איטליה 94'</span>
           </div>
         </div>
       </article>
       <!-- Review Card 2 -->
-      <article class="contact-reviews-card">
+      <article class="contact-reviews-card" data-grid-item-index="1">
         <div class="contact-reviews-card-accent"></div>
         <div class="contact-reviews-card-content">
           <svg class="contact-reviews-quote-icon" data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1011,12 +1011,12 @@
           <p class="contact-reviews-text">"חיפשתי חולצת כדורגל עם הדפסה אישית שתשרוד כביסות ותשמור על הצבע. ב-my jersey קיבלתי בדיוק את זה — וגם חוויית הזמנה חלקה וכיפית. הוספתי פאץ' ליגה והתוצאה נראית כמו מרצ'נדייז רשמי, רק יותר טוב."</p>
           <div class="contact-reviews-source">
             <span class="contact-reviews-name">מיכל אברמוב</span>
-            <span class="contact-reviews-role">חולצת שחקן בהתאמה אישית</span>
+            <span class="contact-reviews-role" style="color: rgb(19, 23, 34) !important;">חולצת שחקן בהתאמה אישית</span>
           </div>
         </div>
       </article>
       <!-- Review Card 3 -->
-      <article class="contact-reviews-card">
+      <article class="contact-reviews-card" data-grid-item-index="2">
         <div class="contact-reviews-card-accent"></div>
         <div class="contact-reviews-card-content">
           <svg class="contact-reviews-quote-icon" data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1026,7 +1026,7 @@
           <p class="contact-reviews-text">"הגעתי דרך חבר מהשכונה והזמנתי חולצת אוהד כדורגל בהתאמה אישית מלאה. המחיר הוגן, השירות מהיר, והחולצה הגיעה בדיוק כמו שדמיינתי. הכי כיף זה ללבוש אותה ביציע ולהרגיש חלק מהקבוצה. אין על התחושה הזאת."</p>
           <div class="contact-reviews-source">
             <span class="contact-reviews-name">יוסי כהן</span>
-            <span class="contact-reviews-role">חולצת אוהד מכבי חיפה</span>
+            <span class="contact-reviews-role" style="color: rgb(19, 23, 34) !important;">חולצת אוהד מכבי חיפה</span>
           </div>
         </div>
       </article>
