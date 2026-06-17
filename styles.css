@@ -11526,6 +11526,289 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 ._access-icon {
   display: flex !important;
 }
+
+/* AI-generated section */
+.how-to-order {
+  background: var(--primary, #131722);
+  padding: 90px 24px;
+  position: relative;
+  overflow: hidden;
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+}
+
+.how-to-order__bg-accent {
+  position: absolute;
+  top: -120px;
+  left: -120px;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(184, 255, 59, 0.06) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.how-to-order__container {
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* Header */
+.how-to-order__header {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.how-to-order__badge {
+  display: inline-block;
+  background: rgba(184, 255, 59, 0.12);
+  color: #B8FF3B;
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 8px 20px;
+  border-radius: 50px;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(184, 255, 59, 0.2);
+}
+
+.how-to-order__title {
+  color: #FFFFFF;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 16px 0;
+  line-height: 1.25;
+  letter-spacing: -0.5px;
+}
+
+.how-to-order__subtitle {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 1.125rem;
+  line-height: 1.7;
+  max-width: 600px;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+/* Steps Grid */
+.how-to-order__steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 56px;
+}
+
+/* Step Card */
+.step-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 36px 28px 32px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease, background 0.3s ease;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.step-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(184, 255, 59, 0.15);
+  border-color: rgba(184, 255, 59, 0.25);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.step-card__number-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.step-card__number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  background: rgba(184, 255, 59, 0.12);
+  color: #B8FF3B;
+  font-size: 1.5rem;
+  font-weight: 700;
+  flex-shrink: 0;
+  border: 1px solid rgba(184, 255, 59, 0.2);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.step-card:hover .step-card__number {
+  background: rgba(184, 255, 59, 0.2);
+  box-shadow: 0 0 20px rgba(184, 255, 59, 0.2);
+}
+
+.step-card__icon-container {
+  flex-shrink: 0;
+}
+
+.step-card__icon {
+  display: block;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  object-fit: cover;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.step-card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.step-card__title {
+  color: #FFFFFF;
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.step-card__description {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  line-height: 1.7;
+  margin: 0;
+  font-weight: 400;
+}
+
+/* CTA Button */
+.how-to-order__cta-wrapper {
+  text-align: center;
+}
+
+.how-to-order__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #B8FF3B;
+  color: #131722;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 18px 36px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+  line-height: 1;
+  letter-spacing: 0.3px;
+}
+
+.how-to-order__cta:hover {
+  background: #c9ff5c;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(184, 255, 59, 0.35);
+}
+
+.how-to-order__cta:active {
+  transform: translateY(0);
+  box-shadow: 0 6px 15px rgba(184, 255, 59, 0.25);
+}
+
+.how-to-order__cta:focus-visible {
+  outline: 3px solid #B8FF3B;
+  outline-offset: 4px;
+}
+
+.how-to-order__cta-arrow {
+  transition: transform 0.25s ease;
+}
+
+.how-to-order__cta:hover .how-to-order__cta-arrow {
+  transform: translateX(4px);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .how-to-order__steps {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .how-to-order__title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .how-to-order {
+    padding: 64px 16px;
+  }
+
+  .how-to-order__steps {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .how-to-order__title {
+    font-size: 1.75rem;
+  }
+
+  .how-to-order__subtitle {
+    font-size: 1rem;
+  }
+
+  .step-card {
+    padding: 28px 20px 24px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 18px;
+  }
+
+  .step-card__number-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .step-card__number {
+    width: 40px;
+    height: 40px;
+    font-size: 1.25rem;
+    border-radius: 12px;
+  }
+
+  .step-card__icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .step-card__content {
+    gap: 8px;
+  }
+
+  .step-card__title {
+    font-size: 1.2rem;
+  }
+
+  .step-card__description {
+    font-size: 0.95rem;
+  }
+
+  .how-to-order__cta {
+    font-size: 1rem;
+    padding: 16px 30px;
+  }
+
+  .how-to-order__header {
+    margin-bottom: 44px;
+  }
+
+  .how-to-order__steps {
+    margin-bottom: 40px;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
