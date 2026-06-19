@@ -11713,6 +11713,11 @@ window.onload = function() {
 })();
 
 
+/* Added Component Script */
+// No JavaScript required for this static removal confirmation section.
+// All interactivity is handled via CSS hover/focus states and standard anchor navigation.
+
+
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
   try {

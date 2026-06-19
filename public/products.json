@@ -1,17 +1,17 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-19T09:44:44.247Z",
+  "generated_at": "2026-06-19T19:52:31.292Z",
   "base_url": "https://example.com",
   "currency": "ILS",
   "count": 1,
   "products": [
     {
       "id": "bf65515c-9e16-434a-8813-9372b14f69f2",
-      "slug": "chvltst-kdvrgl-brtslvnh-25-26-l94lw0",
-      "name": "חולצת כדורגל ברצלונה 25-26",
+      "slug": "brzyl-chvts-2526-01ybi9",
+      "name": "ברזיל חוץ 25/26",
       "name_translations": {},
       "description": "",
-      "short_description": "כך נתאר כך וכך כך",
+      "short_description": null,
       "sku": null,
       "brand": null,
       "price": 75,
@@ -19,13 +19,13 @@
       "sale_price": 75,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/image-product-image-1781805131843-mwlf2b.webp"
+        "https://example.com/assets/product-1781862449022-glzub5.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/chvltst-kdvrgl-brtslvnh-25-26-l94lw0",
+      "url": "https://example.com/product/brzyl-chvts-2526-01ybi9",
       "categories": [],
-      "updated_at": "2026-06-18T17:54:56.630Z"
+      "updated_at": "2026-06-19T19:43:17.543Z"
     }
   ]
 }
