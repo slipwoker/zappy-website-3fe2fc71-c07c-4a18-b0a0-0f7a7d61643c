@@ -11826,6 +11826,10 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
+/* Added Component Script */
+// No JavaScript required for this static section.
+// Interactive elements use CSS hover/focus states only.
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
