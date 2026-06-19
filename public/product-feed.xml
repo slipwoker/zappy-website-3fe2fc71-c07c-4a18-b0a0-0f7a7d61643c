@@ -4,6 +4,90 @@
     <title>my jersey IL</title>
     <link>https://example.com</link>
     <description>Product feed for my jersey IL</description>
-    <lastBuildDate>Thu, 18 Jun 2026 17:49:14 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2026 09:31:18 GMT</lastBuildDate>
+    <item>
+      <g:id>bf65515c-9e16-434a-8813-9372b14f69f2__a700623a-d905-4057-a322-3c441edef1cc</g:id>
+      <g:title>חולצת כדורגל ברצלונה 25-26 - XS</g:title>
+      <g:description>כך נתאר כך וכך כך</g:description>
+      <g:link>https://example.com/product/chvltst-kdvrgl-brtslvnh-25-26-l94lw0</g:link>
+      <g:item_group_id>bf65515c-9e16-434a-8813-9372b14f69f2</g:item_group_id>
+      <g:image_link>https://example.com/assets/image-product-image-1781805131843-mwlf2b.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>99.00 ILS</g:price>
+      <g:sale_price>75.00 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>my jersey IL</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>bf65515c-9e16-434a-8813-9372b14f69f2__d388b45d-eed3-4ba1-9777-a0f36b0f3990</g:id>
+      <g:title>חולצת כדורגל ברצלונה 25-26 - S</g:title>
+      <g:description>כך נתאר כך וכך כך</g:description>
+      <g:link>https://example.com/product/chvltst-kdvrgl-brtslvnh-25-26-l94lw0</g:link>
+      <g:item_group_id>bf65515c-9e16-434a-8813-9372b14f69f2</g:item_group_id>
+      <g:image_link>https://example.com/assets/image-product-image-1781805131843-mwlf2b.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>99.00 ILS</g:price>
+      <g:sale_price>75.00 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>my jersey IL</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>bf65515c-9e16-434a-8813-9372b14f69f2__e49c42da-fd73-4e6f-99f2-17dd649a7e98</g:id>
+      <g:title>חולצת כדורגל ברצלונה 25-26 - M</g:title>
+      <g:description>כך נתאר כך וכך כך</g:description>
+      <g:link>https://example.com/product/chvltst-kdvrgl-brtslvnh-25-26-l94lw0</g:link>
+      <g:item_group_id>bf65515c-9e16-434a-8813-9372b14f69f2</g:item_group_id>
+      <g:image_link>https://example.com/assets/image-product-image-1781805131843-mwlf2b.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>99.00 ILS</g:price>
+      <g:sale_price>75.00 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>my jersey IL</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>bf65515c-9e16-434a-8813-9372b14f69f2__3e7f195a-d1a9-4fb1-8c31-c912b2ad593f</g:id>
+      <g:title>חולצת כדורגל ברצלונה 25-26 - L</g:title>
+      <g:description>כך נתאר כך וכך כך</g:description>
+      <g:link>https://example.com/product/chvltst-kdvrgl-brtslvnh-25-26-l94lw0</g:link>
+      <g:item_group_id>bf65515c-9e16-434a-8813-9372b14f69f2</g:item_group_id>
+      <g:image_link>https://example.com/assets/image-product-image-1781805131843-mwlf2b.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>99.00 ILS</g:price>
+      <g:sale_price>75.00 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>my jersey IL</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>bf65515c-9e16-434a-8813-9372b14f69f2__9052cb09-030f-4ebe-9a70-0b4a4e834ab4</g:id>
+      <g:title>חולצת כדורגל ברצלונה 25-26 - XL</g:title>
+      <g:description>כך נתאר כך וכך כך</g:description>
+      <g:link>https://example.com/product/chvltst-kdvrgl-brtslvnh-25-26-l94lw0</g:link>
+      <g:item_group_id>bf65515c-9e16-434a-8813-9372b14f69f2</g:item_group_id>
+      <g:image_link>https://example.com/assets/image-product-image-1781805131843-mwlf2b.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>99.00 ILS</g:price>
+      <g:sale_price>75.00 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>my jersey IL</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>bf65515c-9e16-434a-8813-9372b14f69f2__946909b6-cb45-4bf5-8e97-2251ac879156</g:id>
+      <g:title>חולצת כדורגל ברצלונה 25-26 - XXL</g:title>
+      <g:description>כך נתאר כך וכך כך</g:description>
+      <g:link>https://example.com/product/chvltst-kdvrgl-brtslvnh-25-26-l94lw0</g:link>
+      <g:item_group_id>bf65515c-9e16-434a-8813-9372b14f69f2</g:item_group_id>
+      <g:image_link>https://example.com/assets/image-product-image-1781805131843-mwlf2b.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>99.00 ILS</g:price>
+      <g:sale_price>75.00 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>my jersey IL</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
   </channel>
 </rss>

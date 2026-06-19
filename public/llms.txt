@@ -72,7 +72,14 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-_No products are currently configured._
+**Total active products: 1**
+
+### חולצת כדורגל ברצלונה 25-26
+https://example.com/product/chvltst-kdvrgl-brtslvnh-25-26-l94lw0
+- Price: 75.00 ILS (sale, was 99.00 ILS)
+- Availability: In stock
+- Description: כך נתאר כך וכך כך
+- Image: https://example.com/assets/image-product-image-1781805131843-mwlf2b.webp
 
 ---
 

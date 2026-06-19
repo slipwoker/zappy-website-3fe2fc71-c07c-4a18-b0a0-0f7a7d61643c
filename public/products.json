@@ -1,8 +1,31 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-18T17:49:14.356Z",
+  "generated_at": "2026-06-19T09:31:18.751Z",
   "base_url": "https://example.com",
   "currency": "ILS",
-  "count": 0,
-  "products": []
+  "count": 1,
+  "products": [
+    {
+      "id": "bf65515c-9e16-434a-8813-9372b14f69f2",
+      "slug": "chvltst-kdvrgl-brtslvnh-25-26-l94lw0",
+      "name": "חולצת כדורגל ברצלונה 25-26",
+      "name_translations": {},
+      "description": "",
+      "short_description": "כך נתאר כך וכך כך",
+      "sku": null,
+      "brand": null,
+      "price": 75,
+      "base_price": 99,
+      "sale_price": 75,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/image-product-image-1781805131843-mwlf2b.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/chvltst-kdvrgl-brtslvnh-25-26-l94lw0",
+      "categories": [],
+      "updated_at": "2026-06-18T17:54:56.630Z"
+    }
+  ]
 }
