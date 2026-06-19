@@ -11717,6 +11717,36 @@ window.onload = function() {
 // No JavaScript required for this static removal confirmation section.
 // All interactivity is handled via CSS hover/focus states and standard anchor navigation.
 
+/* Added Component Script */
+<script>
+  (function() {
+    const primaryBtn = document.querySelector('.gallery-empty__btn--primary');
+    const secondaryBtn = document.querySelector('.gallery-empty__btn--secondary');
+
+    function handleAddFirstJersey() {
+      // Placeholder for add jersey functionality
+      console.log('הוסף חולצה ראשונה - יש לחבר ללוגיקת האתר');
+      // Example: window.location.href = '/add-jersey';
+      // Or trigger a modal, etc.
+    }
+
+    function handleUndoReset() {
+      // Placeholder for undo reset functionality
+      console.log('בטל איפוס - יש לחבר ללוגיקת האתר');
+      // Example: window.history.back();
+      // Or call an API to restore previous state
+    }
+
+    if (primaryBtn) {
+      primaryBtn.addEventListener('click', handleAddFirstJersey);
+    }
+
+    if (secondaryBtn) {
+      secondaryBtn.addEventListener('click', handleUndoReset);
+    }
+  })();
+</script>
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
