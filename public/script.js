@@ -11747,6 +11747,85 @@ window.onload = function() {
   })();
 </script>
 
+/* Added Component Script */
+document.addEventListener('DOMContentLoaded', function() {
+  // Get all patch select elements
+  const patchSelects = document.querySelectorAll('.jersey-select[id^="patch-"]');
+  const nameSelects = document.querySelectorAll('.jersey-select[id^="name-"]');
+
+  // Toggle patch input based on select value
+  patchSelects.forEach(function(select) {
+    select.addEventListener('change', function() {
+      const card = this.closest('.jersey-card');
+      const patchInput = card.querySelector('.jersey-patch-input');
+      if (this.value === 'custom') {
+        patchInput.disabled = false;
+        patchInput.focus();
+      } else {
+        patchInput.disabled = true;
+        patchInput.value = '';
+      }
+    });
+  });
+
+  // Toggle name input based on select value
+  nameSelects.forEach(function(select) {
+    select.addEventListener('change', function() {
+      const card = this.closest('.jersey-card');
+      const nameInput = card.querySelector('.jersey-name-input');
+      if (this.value === 'custom') {
+        nameInput.disabled = false;
+        nameInput.focus();
+      } else {
+        nameInput.disabled = true;
+        nameInput.value = '';
+      }
+    });
+  });
+
+  // Add to cart functionality
+  const addButtons = document.querySelectorAll('.jersey-add-btn');
+  addButtons.forEach(function(button) {
+    button.addEventListener('click', function() {
+      const card = this.closest('.jersey-card');
+      const title = card.querySelector('.jersey-card-title').textContent;
+      const sizeSelect = card.querySelector('[id^="size-"]');
+      const size = sizeSelect.value;
+      const patchSelect = card.querySelector('[id^="patch-"]');
+      const patchValue = patchSelect.value;
+      const patchText = card.querySelector('.jersey-patch-input').value;
+      const nameSelect = card.querySelector('[id^="name-"]');
+      const nameValue = nameSelect.value;
+      const nameText = card.querySelector('.jersey-name-input').value;
+
+      // Validation
+      if (!size) {
+        alert('אנא בחר מידה לפני ההוספה לסל.');
+        sizeSelect.focus();
+        return;
+      }
+
+      // Build cart data
+      const cartItem = {
+        product: title,
+        size: size,
+        patch: patchValue === 'custom' ? patchText : 'ללא',
+        nameNumber: nameValue === 'custom' ? nameText : 'ללא',
+        basePrice: 189,
+        patchPrice: patchValue === 'custom' ? 5 : 0,
+        namePrice: nameValue === 'custom' ? 10 : 0,
+        total: 189 + (patchValue === 'custom' ? 5 : 0) + (nameValue === 'custom' ? 10 : 0)
+      };
+
+      console.log('פריט נוסף לסל:', cartItem);
+      alert('החולצה נוספה לסל בהצלחה!');
+
+      // Here you would integrate with your actual cart system
+      // e.g., dispatch a custom event or call a cart API
+    });
+  });
+});
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
