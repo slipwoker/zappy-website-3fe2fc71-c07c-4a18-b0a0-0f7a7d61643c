@@ -11852,6 +11852,59 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 
+/* Added Component Script */
+document.addEventListener('DOMContentLoaded', function() {
+  const form = document.querySelector('.removal-form');
+  const cancelBtn = document.querySelector('.btn-cancel');
+  const infoSection = document.querySelector('.removal-info');
+
+  // Handle form submission
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    // Simulate submission
+    const submitBtn = form.querySelector('.btn-submit');
+    const originalText = submitBtn.textContent;
+    submitBtn.textContent = 'שולח...';
+    submitBtn.disabled = true;
+
+    setTimeout(function() {
+      // Success state
+      submitBtn.textContent = '✓ הבקשה נשלחה';
+      submitBtn.style.background = '#4ade80';
+      submitBtn.style.color = '#131722';
+
+      // Show success message in info section
+      infoSection.innerHTML = `
+        <div class="info-text" style="text-align: center; width: 100%;">
+          <h3 class="info-heading">✅ הבקשה התקבלה בהצלחה</h3>
+          <p style="color: rgba(255,255,255,0.8); margin: 0;">נשלח אליך אישור במייל תוך זמן קצר.</p>
+        </div>
+      `;
+
+      // Reset form
+      form.reset();
+
+      // Reset button after delay
+      setTimeout(function() {
+        submitBtn.textContent = originalText;
+        submitBtn.disabled = false;
+        submitBtn.style.background = '#ffffff';
+        submitBtn.style.color = '#131722';
+      }, 3000);
+    }, 1500);
+  });
+
+  // Handle cancel button
+  cancelBtn.addEventListener('click', function() {
+    if (confirm('האם אתה בטוח שברצונך לבטל? כל הנתונים יימחקו.')) {
+      form.reset();
+      // Remove focus from any element
+      document.activeElement.blur();
+    }
+  });
+});
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
