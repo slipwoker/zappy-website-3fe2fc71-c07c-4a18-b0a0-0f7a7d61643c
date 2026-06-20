@@ -11830,6 +11830,28 @@ document.addEventListener('DOMContentLoaded', function() {
 // No JavaScript required for this static section.
 // Interactive elements use CSS hover/focus states only.
 
+/* Added Component Script */
+// Simple search filter functionality
+document.addEventListener('DOMContentLoaded', function() {
+  const searchInput = document.querySelector('.filter-search-input');
+  const productCards = document.querySelectorAll('.product-card');
+  
+  if (searchInput) {
+    searchInput.addEventListener('input', function() {
+      const query = this.value.toLowerCase().trim();
+      
+      productCards.forEach(card => {
+        const cardText = card.textContent.toLowerCase();
+        if (query === '' || cardText.includes(query)) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  }
+});
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
