@@ -363,7 +363,7 @@
     </div>
   
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
-<script>window.ZAPPY_WEBSITE_ID = "3fe2fc71-c07c-4a18-b0a0-0f7a7d61643c";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "3fe2fc71-c07c-4a18-b0a0-0f7a7d61643c";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -933,12 +933,12 @@
   </div>
 </section>
 
-<section class="contact-contact-details-section" data-layout-spec="צור קשר-contact-details">
+<section class="contact-contact-details-section" data-layout-spec="צור קשר-contact-details" id="contact-contact-details-section">
   <div class="contact-contact-details-section__container">
     <div class="contact-contact-details-section__grid">
       
       <!-- Card 1: What to Include -->
-      <article class="contact-contact-details-section__card">
+      <article class="contact-contact-details-section__card" data-grid-item-index="0">
         <div class="contact-contact-details-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 15C15.3137 15 18 12.3137 18 9C18 5.68629 15.3137 3 12 3C8.68629 3 6 5.68629 6 9C6 12.3137 8.68629 15 12 15Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -951,7 +951,7 @@
       </article>
 
       <!-- Card 2: Response Flow -->
-      <article class="contact-contact-details-section__card">
+      <article class="contact-contact-details-section__card" data-grid-item-index="1">
         <div class="contact-contact-details-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 13.5997 2.37562 15.1116 3.04346 16.4525C3.22094 16.8088 3.28001 17.2161 3.17712 17.6006L2.58151 19.8267C2.32295 20.793 3.20701 21.677 4.17335 21.4185L6.39939 20.8229C6.78393 20.72 7.19121 20.7791 7.54753 20.9565C8.88837 21.6244 10.4003 22 12 22C17.5228 22 22 17.5228 22 12Z" stroke="currentColor" stroke-width="1.5"></path>
@@ -960,18 +960,18 @@
           </svg>
         </div>
         <h3 class="contact-contact-details-section__card-title">איך תהליך המענה עובד?</h3>
-        <p class="contact-contact-details-section__card-text">לאחר שליחת הפנייה, תקבל מאיתנו הודעת אישור. צוות המומחים שלנו יחזור אליך תוך 24 שעות עם הצעת מחיר מפורטת, סקיצות דיגיטליות ראשוניות, וכל המידע הנדרש כדי להתחיל לייצר את החולצה המושלמת עבורך.</p>
+        <p class="contact-contact-details-section__card-text" style="">לאחר שליחת הפנייה, תקבל מאיתנו הודעת אישור. צוות המומחים שלנו יחזור אליך תוך 24 שעות עם הצעת מחיר מפורטת וכל המידע הנדרש כדי להתחיל לייצר את החולצה המושלמת עבורך.</p>
       </article>
 
       <!-- Card 3: Brand Tone -->
-      <article class="contact-contact-details-section__card">
+      <article class="contact-contact-details-section__card" data-grid-item-index="2">
         <div class="contact-contact-details-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </div>
         <h3 class="contact-contact-details-section__card-title">שקיפות ומחירים קבועים</h3>
-        <p class="contact-contact-details-section__card-text">אנחנו מאמינים בחוויית קנייה נקייה. חולצת אוהד ב-75₪, חולצת שחקן ב-85₪, ורטרו ב-90₪. תוספות כמו שם ומספר (15₪) או פאץ' (5₪) מתומחרות בשקיפות מראש. בלי עמלות נסתרות ובלי הפתעות – רק כדורגל ואהבה לפרטים.</p>
+        <p class="contact-contact-details-section__card-text" style="">אנחנו מאמינים בחוויית קנייה נקייה. חולצת אוהד ב-75₪, חולצת שחקן ב-85₪, ורטרו ב-90₪. תוספות כמו שם ומספר (10₪) או פאץ' (5₪) מתומחרות בשקיפות מראש. בלי עמלות נסתרות ובלי הפתעות – רק כדורגל ואהבה לפרטים.</p>
       </article>
 
     </div>
@@ -993,7 +993,7 @@
             <path d="M10 8C6.68629 8 4 10.6863 4 14V24H12V16H8C8 13.7909 9.79086 12 12 12V8Z" fill="currentColor" opacity="0.15"></path>
             <path d="M22 8C18.6863 8 16 10.6863 16 14V24H24V16H20C20 13.7909 21.7909 12 24 12V8Z" fill="currentColor" opacity="0.15"></path>
           </svg>
-          <p class="contact-reviews-text" >"הזמנתי חולצת רטרו של נבחרת איטליה 94' עם השם והמספר שלי. האיכות מטורפת, הבד מרגיש יוקרתי וההדפסה מושלמת. קיבלתי אינספור מחמאות במגרש ובשכונה.</p>
+          <p class="contact-reviews-text" style="">"הזמנתי חולצת רטרו של נבחרת איטליה 94' עם השם והמספר שלי. האיכות מטורפת, הבד מרגיש יוקרתי וההדפסה מושלמת. קיבלתי אינספור מחמאות במגרש ובשכונה.</p>
           <div class="contact-reviews-source">
             <span class="contact-reviews-name">דניאל לוי</span>
             <span class="contact-reviews-role" style="color: rgb(19, 23, 34) !important;">חולצת רטרו איטליה 94'</span>
@@ -1036,15 +1036,15 @@
   <div class="contact-reviews-accent-line" aria-hidden="true"></div>
 </section>
 
-<section class="contact-cta-section" data-layout-spec="צור קשר-cta" dir="rtl">
+<section class="contact-cta-section" data-layout-spec="צור קשר-cta" dir="rtl" id="contact-cta-section">
   <div class="contact-cta-section__container">
     <h2 class="contact-cta-section__headline">תן לחולצה לספר את הסיפור שלך</h2>
     <p class="contact-cta-section__subtext">לא רק חולצת כדורגל. יצירה אישית שמחברת בין המגרש, השכונה והסגנון שלך.</p>
-    <a href="#contact-form" class="contact-cta-section__btn btn-primary">
-      <span>להזמנה אישית עכשיו</span>
+    <p class="zappy-editable"><a href="#contact-form" class="contact-cta-section__btn btn-primary" data-element-type="button" data-element-id="btn-1781953517829-p4w6d6spf" data-native-element="true" style="outline: none;">
+      <span>להזמנה עכשיו</span>
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
     </a>
-  </div>
+  </p></div>
   <div class="contact-cta-section__accent-line" aria-hidden="true"></div>
   <div class="contact-cta-section__bg-glow" aria-hidden="true"></div>
 </section>
@@ -1055,8 +1055,8 @@
     <div class="footer-grid">
       <!-- Company Info -->
       <div class="footer-col footer-company-col">
-        <img src="/assets/my-jersey-il-e-commerce-custom-sportswear-logo.webp" alt="my jersey IL" class="logo" data-element-type="image" data-element-id="img-1781733964192-nrzny97vl" data-zappy-footer-image="true" >
-        <p class="company-tagline" >המבחר הכי גדול של חולצות כדורגל מכל העולם. מהמגרש לרחוב — תבחר את הקבוצה שלך, אנחנו נדאג לשאר.</p>
+        <img src="/assets/my-jersey-il-e-commerce-custom-sportswear-logo.webp" alt="my jersey IL" class="logo" data-element-type="image" data-element-id="img-1781733964192-nrzny97vl" data-zappy-footer-image="true" style="">
+        <p class="company-tagline" style="">המבחר הכי גדול של חולצות כדורגל מכל העולם. מהמגרש לרחוב — תבחר את הקבוצה שלך, אנחנו נדאג לשאר.</p>
       </div>
 
       <!-- Quick Links -->
@@ -1073,7 +1073,7 @@
       <!-- Contact Info -->
       <div class="footer-col footer-contact-col">
         
-        <ul class="footer-contact" ><li>
+        <ul class="footer-contact" style=""><li>
             <span class="contact-icon"><i class="fas fa-envelope" data-element-type="icon" data-element-id="icon-1781733964190-7bi3ckslv" data-icon-type="fontawesome" style="cursor: pointer;"></i></span>
             <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
           </li><li>
